@@ -1,16 +1,25 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.44f1 (c3ae09b9f03c) revision 12824073'; Using compiler version '192829333'; Build Type 'Release'
+<<<<<<< HEAD
 OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 16108 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
 D:\2022.3.44f1\Editor\Unity.exe
+=======
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ru' Physical Memory: 16345 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+Z:\UNITY\2022.3.44f1\Editor\Unity.exe
+>>>>>>> b116ca6ed9c05f6eb730411b2032f8ccabbaba48
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker9
 -projectPath
+<<<<<<< HEAD
 D:/KingdomRPGame/KingdomRP
 -logFile
 Logs/AssetImportWorker9.log
@@ -18,6 +27,15 @@ Logs/AssetImportWorker9.log
 37184
 Successfully changed project path to: D:/KingdomRPGame/KingdomRP
 D:/KingdomRPGame/KingdomRP
+=======
+Z:/KingdomRPGame/KingdomRP
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+65046
+Successfully changed project path to: Z:/KingdomRPGame/KingdomRP
+Z:/KingdomRPGame/KingdomRP
+>>>>>>> b116ca6ed9c05f6eb730411b2032f8ccabbaba48
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,6 +67,7 @@ D:/KingdomRPGame/KingdomRP
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [11036]  Target information:
 
 Player connection [11036]  * "[IP] 192.168.0.108 [Port] 0 [Flags] 2 [Guid] 3470261103 [EditorId] 3470261103 [Version] 1048832 [Id] WindowsEditor(7,бомба) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
@@ -85,11 +104,50 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.309 seconds
 Domain Reload Profiling: 702ms
 	BeginReloadAssembly (123ms)
+=======
+Player connection [21036]  Target information:
+
+Player connection [21036]  * "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 4237951799 [EditorId] 4237951799 [Version] 1048832 [Id] WindowsEditor(7,Egor_blin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21036] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21036] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 40.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
+[Subsystems] Discovering subsystems at path Z:/UNITY/2022.3.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path Z:/KingdomRPGame/KingdomRP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5954 MB
+    Driver:   32.0.15.5612
+Initialize mono
+Mono path[0] = 'Z:/UNITY/2022.3.44f1/Editor/Data/Managed'
+Mono path[1] = 'Z:/UNITY/2022.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'Z:/UNITY/2022.3.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: Z:/UNITY/2022.3.44f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: Z:/UNITY/2022.3.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.021426 seconds.
+- Loaded All Assemblies, in  0.752 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.580 seconds
+Domain Reload Profiling: 1330ms
+	BeginReloadAssembly (230ms)
+>>>>>>> b116ca6ed9c05f6eb730411b2032f8ccabbaba48
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 	RebuildCommonClasses (37ms)
 	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (54ms)
@@ -112,6 +170,30 @@ Domain Reload Profiling: 702ms
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (196ms)
 			ProcessInitializeOnLoadMethodAttributes (45ms)
+=======
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (310ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (306ms)
+			TypeCache.Refresh (303ms)
+				TypeCache.ScanAssembly (278ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (581ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (495ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+>>>>>>> b116ca6ed9c05f6eb730411b2032f8ccabbaba48
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,7 +202,11 @@ Domain Reload Profiling: 702ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 - Loaded All Assemblies, in  0.581 seconds
+=======
+- Loaded All Assemblies, in  1.191 seconds
+>>>>>>> b116ca6ed9c05f6eb730411b2032f8ccabbaba48
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -128,6 +214,7 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.550 seconds
 Domain Reload Profiling: 1131ms
 	BeginReloadAssembly (145ms)
@@ -169,6 +256,49 @@ Unloading 4930 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (347.6 KB). Loaded Objects now: 5394.
 Memory consumption went from 198.1 MB to 197.8 MB.
 Total: 3.806600 ms (FindLiveObjects: 0.380700 ms CreateObjectMapping: 0.204200 ms MarkObjects: 3.015200 ms  DeleteObjects: 0.205600 ms)
+=======
+- Finished resetting the current domain, in  1.032 seconds
+Domain Reload Profiling: 2221ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (757ms)
+		LoadAssemblies (565ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (361ms)
+			TypeCache.Refresh (306ms)
+				TypeCache.ScanAssembly (283ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1033ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (771ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (521ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 6.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4929 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (348.5 KB). Loaded Objects now: 5393.
+Memory consumption went from 197.0 MB to 196.7 MB.
+Total: 6.490700 ms (FindLiveObjects: 0.479900 ms CreateObjectMapping: 0.778900 ms MarkObjects: 4.957200 ms  DeleteObjects: 0.272600 ms)
+>>>>>>> b116ca6ed9c05f6eb730411b2032f8ccabbaba48
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -176,6 +306,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+<<<<<<< HEAD
   custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
@@ -199,6 +330,29 @@ Number of asset objects unloaded after import = 21
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MouseLook.cs: a364a816c5a70eac40dd93c32c47709b -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 5c1499cfc43e291157e191fb54bb34f9 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1346581.549494 seconds.
+  path: Assets/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '034064f5726954054a62a8b2685d4016') in 0.025893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.
+>>>>>>> b116ca6ed9c05f6eb730411b2032f8ccabbaba48
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
